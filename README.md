@@ -1,1 +1,44 @@
 # BT-Form-DK-Nguoi-Dung
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<form action="http://demo.codegym.vn/6/registration_form/register.php">
+    <table>
+        <td>
+            <tr>
+                <label><b>Họ và tên:</b></label> </br>
+    <input type="text"name="timkien"> </br> </br>
+    </tr>
+        </td>
+        <td>
+            <tr>
+            <label><b>Email:</b></label> </br>
+            <input type="text"name="email"></br></br>
+    </tr>
+        </td>
+        <td>
+            <tr>
+                <label><b>Số điện thoại:</b></label></br>
+            <input type="text"name="sdt"></br></br>
+            </tr>
+        </td>
+        <td>
+            <tr>
+                <label><b>Giới tính:</b></label></br>
+                <input type="checkbox"name="nam"> <b>Nam</b>
+                <input type="checkbox"name="nu"> <b>Nữ</b></br>
+
+            </tr>
+        </td>
+        <td>
+            <input type="submit"value="Đăng ký">
+        </td>
+    </table>
+</form>
+
+</body>
+</html>
